@@ -19,5 +19,11 @@ class TestPerceptron(unittest.TestCase):
         self.assertEqual(1, perceptron.OR(1,0))
         self.assertEqual(0, perceptron.OR(0,0))
 
+    def test_XOR(self):
+        self.assertEqual(0, perceptron.XOR(1,1))
+        self.assertEqual(1, perceptron.XOR(0,1))
+        self.assertEqual(1, perceptron.XOR(1,0))
+        self.assertEqual(0, perceptron.XOR(0,0))
+
 if __name__ == '__main__':
     unittest.main()

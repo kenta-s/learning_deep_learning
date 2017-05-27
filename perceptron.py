@@ -29,3 +29,9 @@ def OR(x1, x2):
         return 0
     else:
         return 1
+
+def XOR(x1, x2):
+    a1 = NAND(x1, x2)
+    a2 = OR(x1, x2)
+    y = AND(a1, a2)
+    return y
