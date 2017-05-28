@@ -15,5 +15,8 @@ class TestNeuralNetwork(unittest.TestCase):
     def test_forward(self):
         # No Idea how to test this function. I need to study more...
 
+    def test_forward(self):
+        # ditto here
+
 if __name__ == '__main__':
     unittest.main()
