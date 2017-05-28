@@ -12,5 +12,8 @@ class TestNeuralNetwork(unittest.TestCase):
         self.assertEqual(0.7310585786300049, neural_network.sigmoid(1.0))
         self.assertEqual(0.88079707797788231, neural_network.sigmoid(2.0))
 
+    def test_forward(self):
+        # No Idea how to test this function. I need to study more...
+
 if __name__ == '__main__':
     unittest.main()
