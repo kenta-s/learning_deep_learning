@@ -1,7 +1,7 @@
 import unittest
 from add_layer import AddLayer
 
-class TestMultiLayer(unittest.TestCase):
+class TestAddLayer(unittest.TestCase):
     def setUp(self):
         self.add_layer = AddLayer()
 
